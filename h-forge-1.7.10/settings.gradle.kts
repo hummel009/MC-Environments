@@ -2,7 +2,7 @@ pluginManagement {
 	repositories {
 		maven {
 			name = "GTNH Maven"
-			url = uri("http://jenkins.usrv.eu:8081/nexus/content/groups/public/")
+			url = uri("https://nexus.gtnewhorizons.com/repository/public/")
 			isAllowInsecureProtocol = true
 			mavenContent {
 				includeGroup("com.gtnewhorizons")
