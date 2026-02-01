@@ -1,4 +1,4 @@
-This repository contains my personal Gradle templates for modding on various versions of Minecraft.
+This repository contains my personal gradle templates for modding on Minecraft 1.3.2 – 1.20.6.
 
 ## What was changed
 
