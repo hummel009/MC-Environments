@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 jobs:
-  build-forge-3-6:
+  build-forge-03-06:
     runs-on: windows-latest
     strategy:
       matrix:
@@ -28,7 +28,7 @@ jobs:
       - name: Build with Gradle
         working-directory: ./h-forge-${{matrix.version}}
         run: ./gradlew build
-  build-forge-7:
+  build-forge-07:
     runs-on: windows-latest
     strategy:
       matrix:
@@ -47,7 +47,7 @@ jobs:
       - name: Build with Gradle
         working-directory: ./h-forge-${{matrix.version}}
         run: ./gradlew build
-  build-forge-8-12:
+  build-forge-08-12:
     runs-on: windows-latest
     strategy:
       matrix:
