@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 jobs:
-  build-forge-voldeloom:
+  build-forge-3-6:
     runs-on: windows-latest
     strategy:
       matrix:
@@ -28,7 +28,7 @@ jobs:
       - name: Build with Gradle
         working-directory: ./h-forge-${{matrix.version}}
         run: ./gradlew build
-  build-forge-retrofuturagradle:
+  build-forge-7:
     runs-on: windows-latest
     strategy:
       matrix:
@@ -47,7 +47,7 @@ jobs:
       - name: Build with Gradle
         working-directory: ./h-forge-${{matrix.version}}
         run: ./gradlew build
-  build-forge-essential:
+  build-forge-8-12:
     runs-on: windows-latest
     strategy:
       matrix:
@@ -66,7 +66,7 @@ jobs:
       - name: Build with Gradle
         working-directory: ./h-forge-${{matrix.version}}
         run: ./gradlew build
-  build-forge-forgegradle:
+  build-forge-13-20:
     runs-on: windows-latest
     strategy:
       matrix:
